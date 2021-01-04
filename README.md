@@ -6,7 +6,7 @@ Only codes indented under conditional statements will be performed according to 
 
 : (colon) must be added after if, elif, else, while, for ...
 
-##if, elif, else
+## if, elif, else
 Use when you need to perform certain actions when you meet certain conditions.
 
 Only codes indented under conditional statements will be performed according to conditions in conditional statements
@@ -15,9 +15,9 @@ Only codes indented under conditional statements will be performed according to 
 Logical AND, OR, NOT
 For conditions used in condition statements, logical AND, OR, NOT are available because it is a boolean.
 
-###When condition is not boolean(None,0,0.0,'',[],(),{},set())
+### When condition is not boolean(None,0,0.0,'',[],(),{},set())
 
-##loop
+## loop
 
 ### while, for
 Enables repetitive tasks.
@@ -26,9 +26,9 @@ Use while touring items of collection type, such as lists, strings, and tuples (
 *If you do not stop repeating when using (while), the cells will be performed indefinitely, requiring kernel reboot.
 while performs a code block only if the condition after is 'True'. If 'False' then stop code block performance and perform subsequent code
 
-###break
+### break
 when use to stop loop
 Performed within a conditional statement and used to escape a loop if conditions are met.
 
-###continue
+### continue
 In certain cases, use to skip to the next, without performing any code.
